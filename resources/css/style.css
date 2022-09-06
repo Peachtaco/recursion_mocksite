@@ -1,0 +1,41 @@
+html {
+    background-color: black;
+
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-family: Verdana;
+    font-size: 21px;
+    color: gray;
+    text-align: center;
+    font-weight: normal;
+}
+
+a {
+    color: aquamarine;
+    font-size: 16px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon {
+    display: flex;
+    justify-content: center;
+}
