@@ -3,12 +3,24 @@ html {
 
 }
 
-h1 {
+#main-content h1 {
     font-family: Verdana;
     font-size: 50px;
     font-weight: normal;
     text-align: center;
     color: white;
+}
+
+#travel-guide h1 {
+    font-family: Verdana;
+    font-size: 42px;
+    font-weight: 300;
+}
+
+#soon h1 {
+    font-family: Verdana;
+    font-size: 42px;
+    font-weight: 300;
 }
 
 h2 {
@@ -19,10 +31,16 @@ h2 {
     font-weight: normal;
 }
 
+h3 {
+    color: gray;
+    text-align: right;
+}
+
 a {
     color: aquamarine;
     font-size: 16px;
     text-align: center;
+    font-family: Verdana;
 }
 
 p {
@@ -38,4 +56,12 @@ p {
 #icon {
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+#phone-vid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
